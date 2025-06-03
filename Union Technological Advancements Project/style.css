@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.topbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #333;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    overflow: hidden;
+    height: 100px;
+}
+
+.top-links a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.sidebar {
+    position: sticky;
+    top: 0;
+    height: 100vh; /* full height */
+    width: 200px;   /* sidebar width */
+    background-color: #ba3333;
+    color: rgb(232, 232, 232);
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column; /* stack items vertically */
+    align-items: flex-start; /* align text to the left */
+}
+
+.logo-img {
+    height: 300px;       /* fixed height */
+    max-height: 300px;
+    width: auto;        /* keeps aspect ratio */
+    object-fit: contain;
+  }
+  
